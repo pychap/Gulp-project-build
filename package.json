@@ -1,0 +1,15 @@
+{
+  "name": "fake-website",
+  "version": "0.0.1",
+  "description": "A project to showcase workflows",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pychap/fake-website.git"
+  },
+  "author": "Peter Chapman",
+  "bugs": {
+    "url": "https://github.com/pychap/fake-website/issues"
+  },
+  "homepage": "https://github.com/pychap/fake-website#readme"
+}

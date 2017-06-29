@@ -58,6 +58,7 @@ Thumbs.db
 
 # My particluar files #
 ######################
+.tmp
 node_modules
 .saas-cache
 Ex_Files_WPW_GGB/*

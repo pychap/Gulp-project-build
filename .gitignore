@@ -58,5 +58,8 @@ Thumbs.db
 
 # My particluar files #
 ######################
+node_modules
+.saas-cache
 Ex_Files_WPW_GGB/*
 config.codekit3
+builds/**/images/*

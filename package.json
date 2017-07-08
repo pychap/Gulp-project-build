@@ -11,5 +11,9 @@
   "bugs": {
     "url": "https://github.com/pychap/fake-website/issues"
   },
-  "homepage": "https://github.com/pychap/fake-website#readme"
+  "homepage": "https://github.com/pychap/fake-website#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8"
+  }
 }

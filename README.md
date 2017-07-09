@@ -10,4 +10,5 @@
 9.  Our js files are using 2 libraries, jQuery to take care of JSON importing and Mustache.js to handle JavaScript templating. Easiest way is through Browserfify.
 10. Install Browserify: `sudo npm install --save-dev gulp-browserify`
 11. Install jQuery: `sudo npm install --save-dev jquery` (_notice no_ `gulp` _in command_)
-12. Install Mustache: `sudo npm install --save-dev gulp-mustache`
+12. Install Mustache: `sudo npm install --save-dev mustache` (_notice no_ `gulp` _in command_)
+13. Install SASS and Compass, just need to install compass but needed to upgrade Ruby first, then install gems, then compass. Best to [refer to this execellent step-by-step article](http://railsapps.github.io/installrubyonrails-mac.html) as was hitting a wall up to this point.

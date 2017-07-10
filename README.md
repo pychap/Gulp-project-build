@@ -12,3 +12,4 @@
 11. Install jQuery: `sudo npm install --save-dev jquery` (_notice no_ `gulp` _in command_)
 12. Install Mustache: `sudo npm install --save-dev mustache` (_notice no_ `gulp` _in command_)
 13. Install SASS and Compass, just need to install compass but needed to upgrade Ruby first, then install gems, then compass. Best to [refer to this execellent step-by-step article](http://railsapps.github.io/installrubyonrails-mac.html) as was hitting a wall up to this point.
+14.  Added watch tasks, lines 42 - 46. Don't know at this point why watching is valuable.

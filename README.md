@@ -12,4 +12,8 @@
 11. Install jQuery: `sudo npm install --save-dev jquery` (_notice no_ `gulp` _in command_)
 12. Install Mustache: `sudo npm install --save-dev mustache` (_notice no_ `gulp` _in command_)
 13. Install SASS and Compass, just need to install compass but needed to upgrade Ruby first, then install gems, then compass. Best to [refer to this execellent step-by-step article](http://railsapps.github.io/installrubyonrails-mac.html) as was hitting a wall up to this point.
-14.  Added watch tasks, lines 42 - 46. Don't know at this point why watching is valuable.
+14.  Added watch tasks, lines 42 - 46. Don't know at this point why watching is valuable. On line 48 `watch` is added to the default task (which _makes it better_).
+15.  Install `gulp-connect` plugin. `npm install --save-dev gulp-connect`
+16.  Added Live Reloading, also added `.pipe(connect.reload())` in several tasks. 
+17.  In `scss` file, added `@import "compass/reset";` - this is a complete browser reset provided by compass!
+18.  Added `html` and `json` watcher task with new variables `htmlSources` and `jsonSources` pointing to paths.
